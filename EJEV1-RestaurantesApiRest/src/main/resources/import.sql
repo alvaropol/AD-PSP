@@ -1,0 +1,1 @@
+--insert into restaurante (atributos) values (NEXT_VAL('restaurante_seq'), resto atributos)
