@@ -25,9 +25,9 @@ public class AppTest {
 
     private static Stream<Arguments> provideTestCases() {
         return Stream.of(
-                Arguments.of(new Integer[]{3,3,2,5,6,2}, 6, true, true),
+                Arguments.of(new Integer[]{3,3,2,5,6,2}, 6, 6, true, true),
                 Arguments.of(new String[]{"3", "2", "8", "23", "64"}, "3", 5, true, true),
-                Arguments.of(new String[]{"3", "2"}, null, 2, true, true)
+                Arguments.of(new String[]{"3", "2"}, "3", 2, true, true)
         );
     }
 }
